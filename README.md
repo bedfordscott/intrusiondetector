@@ -5,7 +5,9 @@ This is a simple Intrusion Detection System (IDS) written in Haskell that uses a
 To compile and run the program, you will need the Haskell compiler ghc and the network and regex-posix libraries installed on your system. You can install these using the Haskell package manager cabal:
 
 cabal update
+
 cabal install network regex-posix
+
 Once you have installed the dependencies, you can compile the program using ghc:
 
 
