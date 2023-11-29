@@ -11,12 +11,12 @@ cabal install network regex-posix
 Once you have installed the dependencies, you can compile the program using ghc:
 
 
-ghc -o ids ids.hs
+ghc -o intrusiondetector intrusiondetector.hs
 
 This will create an executable file called ids. You can then run the program using the following command:
 
 bash
-./ids
+./intrusiondetector
 
 # Usage
 
